@@ -1,0 +1,109 @@
+.col-1{ width: 8.33% ;}
+.col-2{ width: 16.33% ;}
+.col-3{ width: 25% ;}
+.col-4{ width: 33.33% ;}
+.col-5{ width: 41.66% ;}
+.col-6{ width: 50% ;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75% ;}
+.col-10{ width: 83.66% ;}
+.col-11{ width: 91.66% ;}
+.col-12{ width: 100% ;}
+
+[class*= 'col-']
+{
+    float: left;
+  // border: 1px solid red;
+}
+
+.h-80{height:80px;}
+.h-110{height:100px;}
+.h-150{height: 150px;}
+.h-300{height: 300px;}
+.h-325{height: 325px;}
+.h-600{height: 600px;}
+.h-800{height: 800px;}
+.h-200{height: 200px;}
+.h-400{height: 400px;}
+.h-350{height: 350px;}
+.h-500{height: 500px;}
+.h-250{height: 250px;}
+
+.hasi{
+    background-image:url("img/reiki.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:400px;
+    width:100%; 
+}
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    width:80%;
+    background-color: #DB4202;
+    margin-bottom: 30px;
+}
+.hr_2{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    width:60%;
+    background-color: blue;
+    padding-top:50px;
+}
+
+.chaild{
+    background:black;
+    height:325px;
+    width:100%;
+    position:absolute;
+    top:75px;
+ 
+}
+.child{ 
+    background:white;
+    height:150px;
+    width: 70%;
+    margin: 0 auto;
+    position:relative; 
+    z-index:1;
+    border-radius: 25px;
+}
+.my{
+    
+    height:300px;
+    width:100%;
+    position:relative; 
+}
+
+.lutfa{
+    background:black;
+    height:300px;
+    width:100%;
+    color:white;
+    padding:40px 0px 0px 100px;
+}
+
+li{
+    display: inline;
+    padding:10px;
+    float: left;
+    text-align:center;
+}
+li a{
+    text-decoration:none;
+    color: white;
+}
+.hr_3{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 5px;
+    width:60%;
+    background-color: white;
+    
+}
